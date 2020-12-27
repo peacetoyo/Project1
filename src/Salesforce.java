@@ -12,7 +12,9 @@ public class Salesforce {
          driver.get("https://login.salesforce.com/");
          driver.get("https://login.Facebook.com/");
          driver.get("https://login.Amazon.com/");
-         driver.get("https://www.google.com/");;
+         driver.get("https://www.google.com/");
+         driver.get("https://www.google.com/");
+         driver.get("https://www.google.com/");
 
          driver.get("https://login.Facebook.com/");
 
