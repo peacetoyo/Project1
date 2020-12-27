@@ -8,6 +8,10 @@ public class Tester2 {
 		System.setProperty("webdriver.gecko.driver","C:\\Program Files\\geckodriver.exe" );
          WebDriver driver=new FirefoxDriver();
          driver.get("https://www.google.com/");
+         driver.get("https://www.google.com/");
+         driver.get("https://www.google.com/");
+         vdriver.get("https://www.google.com/");
+         driver.get("https://www.google.com/");
          System.out.println(driver.getTitle());
 
 	}

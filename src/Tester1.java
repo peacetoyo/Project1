@@ -12,6 +12,11 @@ public class Tester1 {
          driver.get("https://www.payercompass.com/");
          driver.get("https://www.payercompass.com/");
          driver.get("https://www.payercompass.com/");
+         driver.get("https://www.payercompass.com/");
+         driver.get("https://www.payercompass.com/");
+         driver.get("https://www.payercompass.com/");
+         driver.get("https://www.payercompass.com/");
+         
          System.out.println(driver.getTitle());
          driver.findElement(By.linkText("Price Map")).click();
          

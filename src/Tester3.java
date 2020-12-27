@@ -8,6 +8,10 @@ public class Tester3 {
 		System.setProperty("webdriver.ie.driver","C:\\Program Files\\IEDriverServer.exe" );
          WebDriver driver=new InternetExplorerDriver();
          driver.get("https://www.google.com/");
+         driver.get("https://www.google.com/");
+         driver.get("https://www.google.com/");
+         driver.get("https://www.google.com/");
+         driver.get("https://www.google.com/");
          System.out.println(driver.getTitle());
 	}
 

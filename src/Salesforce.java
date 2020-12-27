@@ -11,7 +11,8 @@ public class Salesforce {
          driver.get("https://login.salesforce.com/");
          driver.get("https://login.Facebook.com/");
          driver.get("https://login.Amazon.com/");
-         driver.get("https://login.Instagram.com/");
+         driver.get("https://login.Instagram.com/")
+         driver.get("https://www.google.com/");;
          System.out.println(driver.getTitle());
          driver.findElement(By.id("username")).sendKeys("gabrieltoyo@outlook.com");
          driver.findElement(By.id("password")).sendKeys("Il0vemylife45");
