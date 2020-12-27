@@ -10,7 +10,7 @@ public class Tester2 {
          driver.get("https://www.google.com/");
          driver.get("https://www.google.com/");
          driver.get("https://www.google.com/");
-         vdriver.get("https://www.google.com/");
+         driver.get("https://www.google.com/");
          driver.get("https://www.google.com/");
          System.out.println(driver.getTitle());
 
