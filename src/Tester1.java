@@ -9,6 +9,9 @@ public class Tester1 {
 		System.setProperty("webdriver.chrome.driver","C:\\Program Files\\chromedriver.exe" );
          WebDriver driver=new ChromeDriver();
          driver.get("https://www.payercompass.com/");
+         driver.get("https://www.payercompass.com/");
+         driver.get("https://www.payercompass.com/");
+         driver.get("https://www.payercompass.com/");
          System.out.println(driver.getTitle());
          driver.findElement(By.linkText("Price Map")).click();
          

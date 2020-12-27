@@ -9,6 +9,9 @@ public class Salesforce {
 		System.setProperty("webdriver.chrome.driver","C:\\Program Files\\chromedriver.exe" );
          WebDriver driver=new ChromeDriver();
          driver.get("https://login.salesforce.com/");
+         driver.get("https://login.Facebook.com/");
+         driver.get("https://login.Amazon.com/");
+         driver.get("https://login.Instagram.com/");
          System.out.println(driver.getTitle());
          driver.findElement(By.id("username")).sendKeys("gabrieltoyo@outlook.com");
          driver.findElement(By.id("password")).sendKeys("Il0vemylife45");
