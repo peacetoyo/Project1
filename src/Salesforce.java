@@ -13,10 +13,7 @@ public class Salesforce {
          driver.get("https://login.Facebook.com/");
          driver.get("https://login.Amazon.com/");
          driver.get("https://www.google.com/");
-         driver.get("https://www.google.com/");
-         driver.get("https://www.google.com/");
-
-         driver.get("https://login.Facebook.com/");
+         
 
          System.out.println(driver.getTitle());
          driver.findElement(By.id("username")).sendKeys("gabriel.toyo@outlook.com");
